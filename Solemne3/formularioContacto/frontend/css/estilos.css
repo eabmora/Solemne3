@@ -1,0 +1,11 @@
+.carouselMaximoAlto{
+    max-height: 700px;
+}
+
+.carouselMaximoAlto img{
+    max-height: 700px;
+}
+
+#formSuccess {
+    display: none;
+}

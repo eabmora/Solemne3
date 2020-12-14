@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Hojas de estilo de bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Hojas de estilos customisables-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Cargando jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ef7164b04f.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="js/contacto.js"></script>
+
+</head>
+
+<body>
+    <!--Navbar o barra de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">ClavisteV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Planes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="planesMoviles.html">Planes Moviles</a>
+                        <a class="dropdown-item" href="planesHogar.html">Planes Hogar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Carrusel de imagenes-->
+    <div id="carouselEmpresasWallpaper" class="carousel slide carouselMaximoAlto carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselEmpresasWallpaper" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselEmpresasWallpaper" data-slide-to="1"></li>
+            <li data-target="#carouselEmpresasWallpaper" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/ebec1b83080403.5d30f5efe9fb9.jpg"
+                    class="d-block w-100" alt="Imagen entel">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpaperaccess.com/full/1561623.jpg" class="d-block w-100" alt="imagen movistar">
+            </div>
+            <div class="carousel-item">
+                <img src="https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/6H4OMG77BNEG5G34HGW7Q4OIBM.png"
+                    class="d-block w-100" alt="imagen vtr">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselEmpresasWallpaper" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselEmpresasWallpaper" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--cards-->
+    <div class="container-xl mt-4">
+        <h4> Planes hogar</h4>
+        <!--Card tecnologia 5G-->
+        <div class="card-deck mb-3">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT42D9EEN59_eJ0X4K6R85CRHNjWCraqyIZWQ&usqp=CAU"
+                    class="card-img-top" alt="Imagen telefonias" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Telefonia</h5>
+                    <p class="card-text">Llama a Chile y el Mundo. Con las mejores tarifas por minuto!</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://storage.googleapis.com/lanacion-media-storage/2020/08/f65a6dfa-foto-movistar-uno.png"
+                    class="card-img-top" alt="Imagen Internet hogar" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Intener hogar</h5>
+                    <p class="card-text">2 Redes simultáneas de 2,4 y 5 GHz con selección automática de la mejor red
+                        disponible y 5 antenas internas ademas contamos con fibra optica para navegar a maxima
+                        velocidad.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="data:image/jpeg;base64,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"
+                    height="250px" class="card-img-top" alt="Imagen TV cable">
+                <div class="card-body">
+                    <h5 class="card-title">TV cable</h5>
+                    <p class="card-text">Disfruta de más de 90 Canales HD Y más de 170 canales.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+
+        <!--Implementacion de una tabla-->
+        <div class="table-responsive-xl">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Plan S</th>
+                        <th scope="col">Plan M</th>
+                        <th scope="col">Plan L</th>
+                        <th scope="col">Plan XL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Internet</th>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fibra Optica</th>
+                        <td><i class="fas fa-times-circle text-danger"></i></td>
+                        <td><i class="fas fa-times-circle text-danger"></i></td>
+                        <td><i class="fas fa-times-circle text-danger"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">TV cable</th>
+                        <td><i class="fas fa-times-circle text-danger"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Canales Premium</th>
+                        <td><i class="fas fa-times-circle text-danger"></i></td>
+                        <td><i class="fas fa-times-circle text-danger"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Telefonia fija</th>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                        <td><i class="fas fa-check-circle text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Precios</th>
+                        <td>
+                            <p class="">
+                                <font>$15.990</font>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="">
+                                <font>$22.990</font>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="">
+                                <font>$29.990</font>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="">
+                                <font>$35.990</font>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <!--Footer-->
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container py-4">
+            <p class="text-white"> Copyright &copy; 2020 - Duoc UC.</p>
+        </div>
+    </footer>
+
+    <!--Cargando jQuery-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "#ClavisteV",
+    "short_name": "#ClavisteV",
+    "description": "Empresa dedicada a los servicios de telefonia fija y movil",
+    "background_color": "#2B2B2B",
+    "theme_color": "#F0DB4F",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX"
+  
+  }
